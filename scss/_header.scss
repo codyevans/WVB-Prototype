@@ -9,9 +9,19 @@ header {
 	letter-spacing: 2px;
 	z-index: 100;
 
+	.copyright {
+		color: $blue;
+		font-size: 9.25px;
+		text-align: left;
+		margin: 15px 0 0 22px;
+		padding: 0px;
+		line-height: 15px;
+
+	}
+
 	.logo-wrap {
 		padding-top: 40px;
-		padding-bottom: 48px;
+		padding-bottom: 40px;
 		text-align: center;
 
 		h1.title {
@@ -19,8 +29,15 @@ header {
 			color: $blue;
 			font-size: 20px;
 			letter-spacing: 0px;
-			margin: 16px 0 0 0;
+			margin: 18px 0 0 0;
 			padding: 0;
+			line-height: 20px;
+
+			span {
+				text-transform: uppercase;
+				font-size: 12px;
+				letter-spacing: 1.5px;
+			}
 		}
 	}
 
@@ -44,10 +61,10 @@ header {
 		}
 
 		span {
-			font-size: 32px;
+			font-size: 20px;
 			float: right;
-			padding-right: 15px;
-			color: $text;
+			padding-right: 17px;
+			color: $blue;
 		}
 	}
 }
@@ -84,6 +101,18 @@ header {
 
 
 // filtering nav section
+.indicator {
+	display: inline-block;
+	float: right;
+	margin-right: 24px;
+	margin-top: 20px;
+	width: 8px;
+	height: 8px;
+	background: none;
+	border-radius: 50%;
+	@include transition(background 0.2s);
+}
+
 #filter-nav {
 	background: $blue;
 	@include background-image(linear-gradient(#25384a, $blue));
@@ -116,7 +145,11 @@ header {
 				@include transition(border-left 0.2s);
 
 				.indicator {
-					background: red;
+					background: $blue;
+				}
+
+				.indicator-on {
+					background: $pink;
 				}
 			}
 		}
@@ -129,7 +162,11 @@ header {
 				@include transition(border-left 0.2s);
 
 				.indicator {
-					background: red;
+					background: $blue;
+				}
+
+				.indicator-on {
+					background: $pink;
 				}
 			}
 		}
@@ -142,7 +179,11 @@ header {
 				@include transition(border-left 0.2s);
 
 				.indicator {
-					background: red;
+					background: $blue;
+				}
+
+				.indicator-on {
+					background: $pink;
 				}
 			}
 		}
@@ -155,23 +196,20 @@ header {
 				@include transition(border-left 0.2s);
 
 				.indicator {
-					background: red;
+					background: $blue;
+				}
+
+				.indicator-on {
+					background: $pink;
 				}
 			}
 		}
 
-		.indicator {
-			display: inline-block;
-			float: right;
-			margin-right: 24px;
-			margin-top: 20px;
-			width: 10px;
-			height: 10px;
-			background: none;
-			border-radius: 50%;
-			@include transition(background 0.2s);
+		.indicator-on {
+			background: $pink;	
 		}
-	}
+
+	} // end filter nav
 
 	a {
 		position: relative;
@@ -185,9 +223,34 @@ header {
 		padding: 0 0 0 23px;
 		letter-spacing: 1px;
 		@include transition(background 0.2s, padding-left 0.2s);
-
 	}
-}
+
+	.one {
+		background: #233546;
+		@include transition(background 0.2s, padding-left 0.2s);
+	}
+
+	.two {
+		background: #273b4e;
+		@include transition(background 0.2s, padding-left 0.2s);
+	}
+
+	.three {
+		background: #293f54;
+		@include transition(background 0.2s, padding-left 0.2s);
+	}
+
+	.four {
+		background: #324960;
+		@include transition(background 0.2s, padding-left 0.2s);
+	}
+
+	.five {
+		background: #364f67;
+		@include transition(background 0.2s, padding-left 0.2s);
+	}
+
+} // end main-nav
 
 #filter-nav.open {
 	height: 250px;

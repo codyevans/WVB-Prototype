@@ -47,7 +47,10 @@
                         </g>
                     </svg>
                 </a>
-                <h1 class="title">Wren VanBockel</h1>
+                <h1 class="title">
+                    Wren VanBockel<br>
+                    <span>Visual Artist</span>       
+                </h1>
             </div>
 
             <nav>
@@ -61,31 +64,31 @@
                     <li>
                         <ul id="filter-nav" class="">
                              <li>
-                                <a href="#">
+                                <a class="one" href="#" data-filter="*">
                                     All Work
                                     <div class="indicator"></div>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a class="two" href="#" data-filter=".painting">
                                     Paintings
                                     <div class="indicator"></div>
                                 </a>
                             </li>
                              <li>
-                                <a href="#">
+                                <a class="three" href="#" data-filter=".drawing">
                                     Drawings
                                     <div class="indicator"></div>
                                 </a>
                             </li>
                              <li>
-                                <a href="#">
+                                <a class="four" href="#" data-filter=".wood-cut">
                                     Wood Cuts
                                     <div class="indicator"></div>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a class="five" href="#" data-filter=".porcelain">
                                     Porcelain
                                     <div class="indicator"></div>
                                 </a>
@@ -95,17 +98,19 @@
                     <li>
                         <a class="main-nav" id="about" href="#">
                             About
-                            <span aria-hidden="true" data-icon="&#xe008;"></span>
+                            <span aria-hidden="true" data-icon="&#x55;"></span>
                         </a>
                     </li>
                     <li>
                         <a class="main-nav" id="connect" href="#">
                             Connect
-                            <span aria-hidden="true" data-icon="&#xe0b9;"></span>
+                            <span aria-hidden="true" data-icon="&#x45;"></span>
                         </a>
                     </li>
                 </ul>
             </nav>
+
+            <p class="copyright">© <?php echo date('Y'); ?> Wren VanBockel.<br>All Rights Reserved.</p>
 
         </header>
 
@@ -116,7 +121,7 @@
             <section id="artwork">
                 <div id="container">
 
-                     <div class="module item">
+                     <div class="module item painting">
                         <a href="#">
                             <img src="img/hummingbirds.jpg">
                             <div class="caption-hover">
@@ -146,7 +151,7 @@
                         </a>
                     </div>
 
-                     <div class="module item">
+                     <div class="module item drawing">
                         <a href="#">
                             <img src="img/peacocky.jpg">
                             <div class="caption-hover">
@@ -176,27 +181,16 @@
                         </a>
                     </div>
 
-                   
-                    
+                
 
                 </div> <!-- /container -->                
             </section>
 
-        
-
-        <footer>
-            <hr>
-            © 2013 Wren VanBockel - All Rights Reserved
-        </footer>
 
         </div> <!-- /page-container -->
 
 
        
-
-
-
-
 
         
 
