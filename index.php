@@ -115,8 +115,15 @@
         </header>
 
 
-        <div class="page-container">
+        <div id="intro-page">
+            <div class="full-page">
+                <h1>Wren VanBockel</h1>
+            </div>
+        </div>
+        <!-- /intro header -->
 
+
+        <div class="page-container">
 
             <section id="artwork">
                 <div id="container">
@@ -181,13 +188,132 @@
                         </a>
                     </div>
 
-                
+
+                    <div class="module item">
+                        <a href="#">
+                            <img src="img/hummingbirds.jpg">
+                            <div class="caption-hover">
+                                <h3>Humming Birds</h3>
+                                <hr>
+                                <p>Painting</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="module item">
+                        <a href="#">
+                            <img src="img/hummingbirds.jpg">
+                            <div class="caption-hover">
+                                <h3>Humming Birds</h3>
+                                <hr>
+                                <p>Painting</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="module item">
+                        <a href="#">
+                            <img src="img/hummingbirds.jpg">
+                            <div class="caption-hover">
+                                <h3>Humming Birds</h3>
+                                <hr>
+                                <p>Painting</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                      <div class="module item">
+                        <a href="#">
+                            <img src="img/intergalactic-planetry.jpg">
+                            <div class="caption-hover">
+                                <h3>Humming Birds</h3>
+                                <hr>
+                                <p>Painting</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                      <div class="module item">
+                        <a href="#">
+                            <img src="img/intergalactic-planetry.jpg">
+                            <div class="caption-hover">
+                                <h3>Humming Birds</h3>
+                                <hr>
+                                <p>Painting</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                     <div class="module item drawing">
+                        <a href="#">
+                            <img src="img/peacocky.jpg">
+                            <div class="caption-hover">
+                                <h3>Peacocky</h3>
+                                <hr>
+                                <p>Sculpture</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                     <div class="module item drawing">
+                        <a href="#">
+                            <img src="img/peacocky.jpg">
+                            <div class="caption-hover">
+                                <h3>Peacocky</h3>
+                                <hr>
+                                <p>Sculpture</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                     <div class="module item drawing">
+                        <a href="#">
+                            <img src="img/peacocky.jpg">
+                            <div class="caption-hover">
+                                <h3>Peacocky</h3>
+                                <hr>
+                                <p>Sculpture</p>
+                                <div class="view-work">
+                                    <span aria-hidden="true" data-icon="&#x53;"></span>
+                                    View Work
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
                 </div> <!-- /container -->                
             </section>
 
-
         </div> <!-- /page-container -->
+
 
 
        

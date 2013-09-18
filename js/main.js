@@ -26,11 +26,17 @@ $(window).load(function() {
 }); // end isotope
 
 
+// smooth scroll init
+$('#artwork-nav').smoothScroll();
+
 // filter nav - opening
 $('#artwork-nav').click(function() {
 	$(this).toggleClass('active');
 	$('#filter-nav').toggleClass('open');
 	$('#arrow').toggleClass('open-arrow');
+
+	// hide intro page for better filtering of artwork
+	//$('#intro-page').hide();
 });
 
 
@@ -66,4 +72,6 @@ $('#about, #connect').click(function() {
 	$('#artwork-nav').removeClass('active');
 	$('#arrow').removeClass('open-arrow');
 });
+
+
 
