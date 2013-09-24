@@ -1,8 +1,8 @@
 
 // full site
 .page-container {
-	padding-left: 225px;
-	padding-right: 60px;
+	//padding-left: 225px;
+	//padding-right: 60px;
 	overflow: none;
 	max-width: 1300px;
 	width: 100%;
@@ -16,3 +16,55 @@
 	padding-left: 10px;
 	padding-top: 10px;
 }
+
+
+
+
+
+// horizontal full pages
+
+.panel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  overflow: auto; }
+
+
+  /* === NEW PAGE ================================================================== */
+
+
+.about {
+  left: 0;
+  background: #c5e5d5;
+  color: #62726a; }
+
+  .about .inner {
+    width: 620px;
+    position: absolute;
+    left: 250px;
+    top: 60px;
+    margin: 0 0 0 0; }
+
+
+/* === NEW PAGE ================================================================== */
+
+
+.artwork {
+  left: 100%;
+  background: #c5d5e5;
+  color: #626a72;
+
+  .inner {
+  	margin: 30px 0 0 230px;
+  }
+
+} // end artwork
+  
+ 
+
+
+
+
+
+

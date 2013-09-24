@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Wren VanBockel</title>
-        <meta name="description" content="The Creative Portfolio of Wren VanBockel">
+        <title>Wren Van Bockel</title>
+        <meta name="description" content="The Creative Portfolio of Wren Van Bockel">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300' rel='stylesheet' type='text/css'>
@@ -48,7 +48,7 @@
                     </svg>
                 </a>
                 <h1 class="title">
-                    Wren VanBockel<br>
+                    Wren Van Bockel<br>
                     <span>Visual Artist</span>       
                 </h1>
             </div>
@@ -96,7 +96,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="main-nav" id="about" href="#">
+                        <a class="main-nav" id="abouts" href="#about">
                             About
                             <span aria-hidden="true" data-icon="&#x55;"></span>
                         </a>
@@ -110,20 +110,72 @@
                 </ul>
             </nav>
 
-            <p class="copyright">© <?php echo date('Y'); ?> Wren VanBockel.<br>All Rights Reserved.</p>
+            <p class="copyright">© <?php echo date('Y'); ?> Wren Van Bockel.<br>All Rights Reserved.</p>
 
         </header>
 
 
-        <div id="intro-page">
+      <!--   <div id="intro-page">
             <div class="full-page">
-                <h1>Wren VanBockel</h1>
+                <h1>Wren Van Bockel</h1>
             </div>
-        </div>
+        </div> -->
         <!-- /intro header -->
 
 
-        <div class="page-container">
+
+         <div id="about" class="panel about">
+      <div class="inner">
+        <div class="summary">
+          <p>Waypoints is a jQuery plugin that makes it easy to execute a function whenever you scroll to an element.</p>
+
+          <ul>
+            <li><a href="https://github.com/imakewebthings/jquery-waypoints/zipball/latest" class="icon about-download">Download</a></li>
+            <li><a href="http://github.com/imakewebthings/jquery-waypoints" class="icon about-github">GitHub</a></li>
+            <li><a href="test/" class="icon about-tests">Tests</a></li>
+            <li><a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt" class="icon about-licenses">Licenses</a></li>
+          </ul>
+        </div>
+
+        <div class="new-in-2">
+          <h2>New in 2.0</h2>
+          <ul>
+            <li>
+              <h3 class="icon new-horizontals">Horizontals</h3>
+              <p>Waypoints can now be created for horizontal scrolling. Just pass <code>horizontal:true</code> to your waypoint options.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-multiples">Multiples</h3>
+              <p>One HTML element can now have multiple Waypoints attached to it, each with its own <code>offset</code> and handler.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-shortcuts">Shortcuts</h3>
+              <p>The most common uses for Waypoints are now even easier to implement with <a href="#shortcuts-examples">shortcut methods</a>.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-api">Revised API</h3>
+              <p>A new handler signature, added introspection methods, and more. Be sure to check the new <a href="#docs">docs</a> and the <a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/CHANGELOG.md">changelog</a>.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+
+
+
+
+    <div id="artwork" class="panel artwork">
+      <div class="inner">
+
+
+          <div class="page-container">
 
             <section id="artwork">
                 <div id="container">
@@ -309,14 +361,17 @@
                         </a>
                     </div>
 
-                </div> <!-- /container -->                
+                </div>           
             </section>
 
-        </div> <!-- /page-container -->
+        </div> 
 
 
 
-       
+      </div>
+    </div>
+
+
 
         
 
