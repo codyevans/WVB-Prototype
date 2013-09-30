@@ -47,12 +47,20 @@
 			font-weight: 700;
 		}
 
-		p:before {
+		p.category:before {
 			content: "category: ";
 			color: #fff;
 			font-size: 12px;
 			font-weight: 300;
-			text-transform: uppercase;
+			text-transform: none;
+		}
+
+		p.year:before {
+			content: "year: ";
+			color: #fff;
+			font-size: 12px;
+			font-weight: 300;
+			text-transform: none;
 		}
 
 		.view-work {

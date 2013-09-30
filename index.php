@@ -187,7 +187,8 @@
                             <div class="caption-hover">
                                 <h3>Humming Birds</h3>
                                 <hr>
-                                <p>Painting</p>
+                                <p class="category">Painting</p>
+                                <p class="year">2013</p>
                                 <div class="view-work">
                                     <span aria-hidden="true" data-icon="&#x53;"></span>
                                     View Work
