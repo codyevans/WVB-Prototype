@@ -28,12 +28,10 @@ $(window).load(function() {
 
 // filter nav - opening
 $('#artwork-nav').click(function() {
+  $('#abouts, #connect').removeClass('active');
 	$(this).toggleClass('active');
 	$('#filter-nav').toggleClass('open');
 	$('#arrow').toggleClass('open-arrow');
-
-	// hide intro page for better filtering of artwork
-	//$('#intro-page').hide();
 });
 
 
@@ -64,10 +62,20 @@ $('#filter-nav a.five').click(function() {
 
 
 // remove active state on arwtork-nav - filter nav closing
-$('#abouts, #connect').click(function() {
+$('#abouts').click(function() {
+  $('#connect').removeClass('active');
 	$('#filter-nav').removeClass('open');
 	$('#artwork-nav').removeClass('active');
 	$('#arrow').removeClass('open-arrow');
+  $('#abouts').addClass('active');
+});
+
+$('#connect').click(function() {
+  $('#abouts').removeClass('active');
+  $('#filter-nav').removeClass('open');
+  $('#artwork-nav').removeClass('active');
+  $('#arrow').removeClass('open-arrow');
+  $('#connect').addClass('active');
 });
 
 

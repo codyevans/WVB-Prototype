@@ -2,15 +2,22 @@
 .module {
 	background: #fff;
 	width: 250px;
-	padding: 13px;
+	height: auto;
+	//padding: 10px 10px 5px 10px;
 	margin: 0 21px 21px 0;
-	border-radius: 3px;
+	//border-radius: 3px;
 	overflow: hidden;
 	@include box-shadow(rgba(0,0,0,0.2) 0 0 7px 1px);
+
+	a {
+		margin: 0;
+		padding: 0;
+	}
 
 	img {
 		width: 100%;
 		height: auto;
+		margin: 0;
 	}
 
 	.caption-hover {
@@ -20,6 +27,7 @@
 		top: 0;
 		left: 0;
 		bottom: 0;
+		margin: 0 0 0 0;
 		padding: 20px;
 		background: #2c3f52;
 		color: #ed4e6e;
@@ -35,7 +43,7 @@
 
 		p {
 			font-size: 12px;
-			text-transform: uppercase;
+			text-transform: none;
 			font-weight: 700;
 		}
 
@@ -44,16 +52,23 @@
 			color: #fff;
 			font-size: 12px;
 			font-weight: 300;
-			//text-transform: none;
+			text-transform: uppercase;
 		}
 
 		.view-work {
+			position: relative;
 			margin-top: 25px;
 			text-align: center;
 			padding: 5px 10px;
 			border-radius: 2px;
 			background: #ed4e6e;
 			color: #fff;
+
+			span {
+				position: absolute;
+				margin-top: 1.25px;
+				margin-left: -20px
+			}
 		}
 	}
 

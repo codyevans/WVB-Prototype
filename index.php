@@ -102,7 +102,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="main-nav" id="connect" href="#">
+                        <a class="main-nav last" id="connect" href="#connect">
                             Connect
                             <span aria-hidden="true" data-icon="&#x45;"></span>
                         </a>
@@ -124,10 +124,11 @@
 
 
 
-         <div id="about" class="panel about">
+    <div id="intro" class="panel intro">
       <div class="inner">
         <div class="summary">
-          <p>Waypoints is a jQuery plugin that makes it easy to execute a function whenever you scroll to an element.</p>
+
+            <h1>Intro Page</h1>
 
           <ul>
             <li><a href="https://github.com/imakewebthings/jquery-waypoints/zipball/latest" class="icon about-download">Download</a></li>
@@ -366,8 +367,91 @@
 
         </div> 
 
+      </div>
+    </div>
 
 
+     <div id="about" class="panel about">
+      <div class="inner">
+        <div class="summary">
+
+            <h1>About Page</h1>
+
+          <ul>
+            <li><a href="https://github.com/imakewebthings/jquery-waypoints/zipball/latest" class="icon about-download">Download</a></li>
+            <li><a href="http://github.com/imakewebthings/jquery-waypoints" class="icon about-github">GitHub</a></li>
+            <li><a href="test/" class="icon about-tests">Tests</a></li>
+            <li><a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt" class="icon about-licenses">Licenses</a></li>
+          </ul>
+        </div>
+
+        <div class="new-in-2">
+          <h2>New in 2.0</h2>
+          <ul>
+            <li>
+              <h3 class="icon new-horizontals">Horizontals</h3>
+              <p>Waypoints can now be created for horizontal scrolling. Just pass <code>horizontal:true</code> to your waypoint options.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-multiples">Multiples</h3>
+              <p>One HTML element can now have multiple Waypoints attached to it, each with its own <code>offset</code> and handler.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-shortcuts">Shortcuts</h3>
+              <p>The most common uses for Waypoints are now even easier to implement with <a href="#shortcuts-examples">shortcut methods</a>.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-api">Revised API</h3>
+              <p>A new handler signature, added introspection methods, and more. Be sure to check the new <a href="#docs">docs</a> and the <a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/CHANGELOG.md">changelog</a>.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div id="connect" class="panel connect">
+      <div class="inner">
+        <div class="summary">
+
+            <h1>Connect Page</h1>
+
+          <ul>
+            <li><a href="https://github.com/imakewebthings/jquery-waypoints/zipball/latest" class="icon about-download">Download</a></li>
+            <li><a href="http://github.com/imakewebthings/jquery-waypoints" class="icon about-github">GitHub</a></li>
+            <li><a href="test/" class="icon about-tests">Tests</a></li>
+            <li><a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt" class="icon about-licenses">Licenses</a></li>
+          </ul>
+        </div>
+
+        <div class="new-in-2">
+          <h2>New in 2.0</h2>
+          <ul>
+            <li>
+              <h3 class="icon new-horizontals">Horizontals</h3>
+              <p>Waypoints can now be created for horizontal scrolling. Just pass <code>horizontal:true</code> to your waypoint options.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-multiples">Multiples</h3>
+              <p>One HTML element can now have multiple Waypoints attached to it, each with its own <code>offset</code> and handler.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-shortcuts">Shortcuts</h3>
+              <p>The most common uses for Waypoints are now even easier to implement with <a href="#shortcuts-examples">shortcut methods</a>.</p>
+            </li>
+
+            <li>
+              <h3 class="icon new-api">Revised API</h3>
+              <p>A new handler signature, added introspection methods, and more. Be sure to check the new <a href="#docs">docs</a> and the <a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/CHANGELOG.md">changelog</a>.</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 

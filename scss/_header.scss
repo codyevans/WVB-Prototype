@@ -56,16 +56,16 @@ header {
 			background: white;
 		}
 
-		&:last-child {
-			border-bottom: 1px solid $border;
-		}
-
 		span {
 			font-size: 20px;
 			float: right;
 			padding-right: 17px;
 			color: $blue;
 		}
+	}
+
+	a.main-nav.last {
+		border-bottom: 1px solid $border;
 	}
 }
 
@@ -97,6 +97,7 @@ header {
 // active nav state
 .active {
 	background: white;
+	border: none;
 }
 
 

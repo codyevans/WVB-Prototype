@@ -20,6 +20,9 @@ body {
 	overflow: hidden;
 }
 
+a:focus {
+	outline: none;
+}
 
 // typography globals
 p {
