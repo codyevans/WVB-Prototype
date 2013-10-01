@@ -28,3 +28,12 @@ $(window).load(function() {
 */
 // end isotope
 
+
+$(window).load(function() { // load the DOM then animate pages in
+
+	// animate page borders
+	$('#left, #right, #top, #bottom').addClass('animate');
+
+});
+
+

@@ -6,20 +6,34 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Wren Van Bockel</title>
+        <title>Wren Van Bockel | The Creative Portfolio</title>
         <meta name="description" content="The Creative Portfolio of Wren Van Bockel">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body id="intro-page">
 
-        <h1>Hello World</h1>
+        <?php // white borders ?>
+
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+
+
+        <div class="page-background">
 
 
 
-      
+
+
+        </div> <?php // end container ?>
+
+
+
+
 
 
         

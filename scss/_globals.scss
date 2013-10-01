@@ -1,5 +1,6 @@
 
-// body globals
+ /* === V3 Body Globals ================================================================== */
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -23,7 +24,9 @@ a:focus {
 	outline: none;
 }
 
-// typography globals
+
+ /* === V3 Typography Globals ================================================================== */
+
 p {
 	margin: 0px;
 	padding: 0px;
@@ -34,6 +37,71 @@ ul {
 	padding: 0px;
 }
 
-hr {
-	color: $border;
+
+ /* === V3 Base Page Globals ================================================================== */
+
+// white page borders
+ #left, #right, #top, #bottom {
+ 	background: #FFF;
+ 	position: fixed;
+ }
+
+ #left, #right {
+ 	top: 0;
+ 	bottom: 0;
+ 	width: 0px;
+ 	z-index: 1000;
+ 	@include transition(width 0.3s 0.5s);
+ }
+
+ #left.animate, #right.animate {
+ 	width: 18px;
+ }
+
+ #left {
+ 	left: 0;
+ }
+
+ #right {
+ 	right: 0;
+ }
+
+#top, #bottom {
+	left: 0;
+ 	right: 0;
+ 	height: 0px;
+ 	z-index: 1000;
+ 	@include transition(height 0.3s 0.5s);	
 }
+
+#top.animate, #bottom.animate {
+ 	height: 18px;
+ }
+
+#top {
+	top: 0;
+}
+
+#bottom {
+	bottom: 0;
+}
+
+
+// main page backgrounds
+.page-background {
+	background: $default-gray;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

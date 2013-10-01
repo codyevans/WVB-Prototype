@@ -1,0 +1,50 @@
+
+// page container background
+
+#intro-page { 
+
+	.page-background {
+		background: $blue;
+		@include background(
+			url(img/bkgd/bkgd-noise.png),
+			radial-gradient(rgba(0,0,0,0), $dark-blue),
+			#304355);
+	}
+
+	// intro inner
+	.intro-inner {
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+		top: 150px;
+		left: 100px;
+	}
+
+	nav {
+
+		li {
+			display: inline-block;
+			margin-right: 50px;
+			width: 159px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			border: 1px solid #fff;
+			@include opacity(0.5);
+
+			a {
+				color: #fff;
+				font-size: 16px;
+				font-weight: 300;
+				letter-spacing: 3px;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+		}
+	}
+
+} // end intro page
+
+
+
+
