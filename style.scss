@@ -7,6 +7,9 @@
 @import "scss/normalize";
 @import "scss/fonts";
 
+// animations
+@import "scss/isotope";
+
 // globals + grid
 @import "scss/globals";
 @import "scss/grid";
@@ -16,5 +19,4 @@
 
 // sections
 @import "scss/modules";
-@import "scss/isotope";
-@import "scss/artwork-section";
+
