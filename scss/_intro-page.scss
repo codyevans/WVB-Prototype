@@ -1,49 +1,47 @@
 
-// page container background
-
 #intro-page { 
 
+	// page background
 	.page-background {
-		background: $blue;
-		@include background(
+		background: $blue; // fallback color
+		@include background( // textured blue background
 			url(img/bkgd/bkgd-noise.png),
+			radial-gradient(rgba(57, 81, 105, 0.7), rgba(0,0,0,0) 40%),
 			radial-gradient(rgba(0,0,0,0), $dark-blue),
 			#304355);
-	}
+	} // end page-background
 
-	// intro inner
-	.intro-inner {
-		position: relative;
-		width: 80%;
-		margin: 0 auto;
-		top: 150px;
-		left: 100px;
-	}
 
-	nav {
+	// centering page content
+	.centering-block {
+		text-align: center;
+		height: 100%;
+		overflow: auto;
 
-		li {
+		&:before {
+			content: '';
 			display: inline-block;
-			margin-right: 50px;
-			width: 159px;
-			height: 40px;
-			line-height: 40px;
-			text-align: center;
-			border: 1px solid #fff;
-			@include opacity(0.5);
-
-			a {
-				color: #fff;
-				font-size: 16px;
-				font-weight: 300;
-				letter-spacing: 3px;
-				text-transform: uppercase;
-				text-decoration: none;
-			}
+			height: 100%;
+			vertical-align: middle;
+			//margin-right: -0.25em; // adjust for spacing
 		}
 	}
 
+	.centered-content {
+		display: inline-block;
+		vertical-align: middle;
+		width: 50%;
+	}
+	// end centering page content
+
+	
+
+
 } // end intro page
+
+
+
+
 
 
 

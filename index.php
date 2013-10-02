@@ -15,8 +15,6 @@
     </head>
     <body id="intro-page">
 
-        <?php // white borders ?>
-
         <div id="left"></div>
         <div id="right"></div>
         <div id="top"></div>
@@ -25,11 +23,22 @@
 
         <div class="page-background">
 
+           <div class="centering-block">
+                <div class="centered-content">
+                    <img src="img/bkgd/intro-logo.png">
+                    <h1>Wren Van Bockel</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+           </div>
 
-
-
-
-        </div> <?php // end container ?>
+        </div> <!-- /page-background -->
 
 
 
