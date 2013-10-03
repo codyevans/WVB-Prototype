@@ -25,27 +25,38 @@
 
            <div class="centering-block">
                 <div class="centered-content">
-                    <img src="img/bkgd/intro-logo.png">
+                    <div class="intro-logo" alt="Wren, the creative portfolio.">
+                        <div class="faded-hover-one"></div>
+                    </div>
                     <h1>Wren Van Bockel</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <div class="sub-heading">
+                       <p class="subtitle">
+                        <span>Visual Artist</span>
+                       </p>
+                    </div>
+                    <nav class="intro-nav">
+                        <ul id="intro-nav-animate">
+                            <li>
+                                <a id="artwork-hover" href="#">artwork</a>
+                            </li>
+                            <li>
+                                <a href="#">about</a>
+                            </li>
+                            <li>
+                                <a href="#">connect</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright">
+                        <p>
+                            © 2013 Wren Van Bockel - All Rights Reserved
+                        </p>
+                    </div>
                 </div>
            </div>
 
         </div> <!-- /page-background -->
 
-
-
-
-
-
-        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

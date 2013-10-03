@@ -1,5 +1,11 @@
 
-#intro-page { 
+#intro-page {
+
+	::selection {
+		color: #fff;
+		background: $pink;
+		text-shadow: none;
+	} 
 
 	// page background
 	.page-background {
@@ -28,14 +34,147 @@
 	}
 
 	.centered-content {
+		//position: relative;
 		display: inline-block;
 		vertical-align: middle;
-		width: 50%;
+		//padding: 20px 0 40px 0;
+		width: 95%;
+
+		// content  287 x 354
+		.intro-logo {
+		position: relative;
+		background: url(img/bkgd/intro-logo.png) no-repeat center 0;
+		width: 287px;
+		height: 354px;
+		margin: 0 auto;
+		z-index: 1000;
+
+		// 177 x 176
+		.faded-hover-one {
+			background: url(img/bkgd/face2.png) no-repeat center center;
+			height: 176px;
+			width: 177px; 
+			position: absolute;
+			top: 80px;
+			left: 54px;
+			z-index: 0;
+			@include transition(top 0.3s ease);
+
+		}
+
+		.faded-hover-one.animate {
+			top: -190px;
+		}
+
+		}
+
+		h1 {
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: 3px;
+			margin: 22px 0 4px 0;
+			color: #fff;
+			text-shadow: 0px 0px 17px rgba(0,0,0,0.3);
+			@include opacity(0.8);
+		}
+
+		.sub-heading {
+
+			// subtitle text
+			p span {
+				text-transform: uppercase;
+				font-size: 20px;
+				font-weight: 300;
+				letter-spacing: 2.5px;
+				color: #fff;
+				@include opacity(0.6);
+			}
+
+			// right and left border lines
+			.subtitle span {
+				display: inline-block;
+				position: relative;
+			}
+
+			.subtitle span:before,
+			.subtitle span:after {
+				content: '';
+				position: absolute;
+				height: 5px;
+				border-top: 1px solid #fff;
+				top: 13px;
+				width: 150px;
+			}
+
+			.subtitle span:before {
+				right: 100%;
+				margin-right: 15px;
+			}
+
+			.subtitle span:after {
+				left: 100%;
+				margin-left: 10px;
+			}
+
+		} // end subtitle / subhead
+
+		nav.intro-nav {
+			
+			ul {
+				margin: 145px 0 0 0;
+
+				li {
+					display: inline-block;
+					margin-right: 120px;
+					@include transition(transform 0.2s);
+
+					&:hover {
+						@include transform(translateY(5px));
+					}
+				
+					&:last-child {
+						margin-right: 0px;
+					}
+
+					a {
+						color: #fff;
+						font-size: 16px;
+						font-weight: 300;
+						letter-spacing: 2px;
+						text-decoration: none;
+						text-transform: uppercase;
+						padding: 11px 42px;
+						border: 1px solid #fff;
+						box-shadow: 0 0 0 rgba(0,0,0,0.2);
+						@include opacity(0.5);
+						@include background(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 50%, #fff 50%, #fff));
+						background-size: 100% 200%;
+						@include transition(all 0.18s ease);
+
+						&:hover {
+							background-position: 100% 100%;
+							color: $blue;
+							box-shadow: 0 0 17px rgba(0,0,0,0.4);
+							@include opacity(0.85);
+						}
+
+					} // end a tag
+
+				}
+			}	
+		} // end nav
+
+		.copyright {
+			display: none;
+			color: #fff;
+			font-size: 10px;
+			@include opacity(0.4);
+		}
+
 	}
 	// end centering page content
 
 	
-
 
 } // end intro page
 
