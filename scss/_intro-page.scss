@@ -42,29 +42,29 @@
 
 		// content  287 x 354
 		.intro-logo {
-		position: relative;
-		background: url(img/bkgd/intro-logo.png) no-repeat center 0;
-		width: 287px;
-		height: 354px;
-		margin: 0 auto;
-		z-index: 1000;
+			position: relative;
+			background: url(img/bkgd/intro-logo.png) no-repeat center 0;
+			width: 287px;
+			height: 354px;
+			margin: 0 auto;
+			z-index: 1000;
 
-		// 177 x 176
-		.faded-hover-one {
-			background: url(img/bkgd/face2.png) no-repeat center center;
-			height: 176px;
-			width: 177px; 
-			position: absolute;
-			top: 80px;
-			left: 54px;
-			z-index: 0;
-			@include transition(top 0.3s ease);
+			// 177 x 176
+			.faded-hover-one {
+				background: url(img/bkgd/face2.png) no-repeat center center;
+				height: 176px;
+				width: 177px; 
+				position: absolute;
+				top: 80px;
+				left: 54px;
+				z-index: 0;
+				@include transition(top 0.3s ease);
 
-		}
+			}
 
-		.faded-hover-one.animate {
-			top: -190px;
-		}
+			.faded-hover-one.animate {
+				top: -190px;
+			}
 
 		}
 
