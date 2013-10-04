@@ -32,7 +32,9 @@ $(window).load(function() {
 $(window).load(function() { // load the DOM then animate pages in
 
 	// preload this thing
-	
+
+	$(".preloader").delay(350).fadeOut("slow");
+
 
 	// animate page borders
 	$('#left, #right, #top, #bottom').addClass('animate');

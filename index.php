@@ -15,6 +15,12 @@
     </head>
     <body id="intro-page">
 
+        <div class="preloader">
+            <p>
+               hello
+            </p>
+        </div>
+
         <div id="left"></div>
         <div id="right"></div>
         <div id="top"></div>
