@@ -26,7 +26,8 @@
            <div class="centering-block">
                 <div class="centered-content">
                     <div class="intro-logo" alt="Wren, the creative portfolio.">
-                        <div class="faded-hover-one"></div>
+                      <div class="wren-logo"></div>
+                       <div class="about-face"></div>
                     </div>
                     <h1>Wren Van Bockel</h1>
                     <div class="sub-heading">

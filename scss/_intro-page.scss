@@ -14,6 +14,7 @@
 			url(img/bkgd/bkgd-noise.png),
 			radial-gradient(rgba(57, 81, 105, 0.7), rgba(0,0,0,0) 40%),
 			radial-gradient(rgba(0,0,0,0), $dark-blue),
+			url(img/intro/tile8.png) repeat-x center top, // adjust for browser sizes
 			#304355);
 	} // end page-background
 
@@ -40,30 +41,44 @@
 		//padding: 20px 0 40px 0;
 		width: 95%;
 
-		// content  287 x 354
+		// content  289 x 354
 		.intro-logo {
 			position: relative;
-			background: url(img/bkgd/intro-logo.png) no-repeat center 0;
-			width: 287px;
+			background: url(img/intro/blank-paper.png) no-repeat center 0;
+			width: 289px;
 			height: 354px;
 			margin: 0 auto;
-			z-index: 1000;
+			//z-index: 1000;
 
-			// 177 x 176
-			.faded-hover-one {
-				background: url(img/bkgd/face2.png) no-repeat center center;
-				height: 176px;
-				width: 177px; 
+			// 125 x 180
+			.wren-logo {
+				display: none;
+				background: url(img/intro/logo.png) no-repeat center center;
+				width: 125px;
+				height: 180px; 
 				position: absolute;
-				top: 80px;
-				left: 54px;
-				z-index: 0;
-				@include transition(top 0.3s ease);
+				top: 66px;
+				left: 82px;
+				//z-index: 0;
+				//@include transition(top 0.3s ease);
 
 			}
 
-			.faded-hover-one.animate {
-				top: -190px;
+			// .wren-logo.animateIn {
+			// 	top: -190px;
+			// }
+
+			// 177 x 176
+			.about-face {
+				//display: none;
+				background: url(img/intro/face2.png) no-repeat center center;
+				width: 177px;
+				height: 176px; 
+				position: absolute;
+				top: 75px;
+				left: 57px;
+				//z-index: 0;
+				//@include transition(top 0.3s ease);
 			}
 
 		}
@@ -121,7 +136,7 @@
 		nav.intro-nav {
 			
 			ul {
-				margin: 145px 0 0 0;
+				margin: 100px 0 0 0;
 
 				li {
 					display: inline-block;

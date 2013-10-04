@@ -31,15 +31,20 @@ $(window).load(function() {
 
 $(window).load(function() { // load the DOM then animate pages in
 
+	// preload this thing
+	
+
 	// animate page borders
 	$('#left, #right, #top, #bottom').addClass('animate');
 
+
+
 	// fade hovers
-	$('#artwork-hover').hover(function() {
-		$('.faded-hover-one').addClass('animate');
-	}, function() {
-		$('.faded-hover-one').removeClass('animate');
-	});
+	// $('#artwork-hover').hover(function() {
+	// 	$('.faded-hover-one').addClass('animate');
+	// }, function() {
+	// 	$('.faded-hover-one').removeClass('animate');
+	// });
 
 
 
