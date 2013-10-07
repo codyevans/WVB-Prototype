@@ -1,93 +1,130 @@
 
-// full site
-.page-container {
-	//padding-left: 225px;
-	//padding-right: 60px;
-	overflow: none;
-	//max-width: 1300px;
-	width: 100%;
-	height: 100%;
+// // full site
+// .page-container {
+// 	//padding-left: 225px;
+// 	//padding-right: 60px;
+// 	overflow: none;
+// 	//max-width: 1300px;
+// 	width: 100%;
+// 	height: 100%;
 	
-}
+// }
 
-// artwork container 
-#container {
-	//max-width: 1000px;
-	padding-left: 10px;
-	padding-top: 5px;
-}
-
-
+// // artwork container 
+// #container {
+// 	//max-width: 1000px;
+// 	padding-left: 10px;
+// 	padding-top: 5px;
+// }
 
 
 
-// horizontal full pages
-
-.panel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  overflow: auto; }
 
 
-/* === INTRO PAGE ================================================================== */
+// // horizontal full pages
 
-.intro {
-  left: 0;
-  background: $blue;
-  color: #62726a; }
-
-  .intro .inner {
-    width: 620px;
-    position: absolute;
-    left: 250px;
-    top: 60px;
-    margin: 0 0 0 0; }
+// .panel {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   overflow: auto; }
 
 
-/* === ARTWORK PAGE ================================================================== */
+// /* === INTRO PAGE ================================================================== */
 
-.artwork {
-  left: 100%;
-  background: white;
-  color: #626a72;
+// .intro {
+//   left: 0;
+//   background: $blue;
+//   color: #62726a; }
 
-  .inner {
-  	margin: 30px 0 0 220px;
-  }
+//   .intro .inner {
+//     width: 620px;
+//     position: absolute;
+//     left: 250px;
+//     top: 60px;
+//     margin: 0 0 0 0; }
 
-} // end artwork
+
+// /* === ARTWORK PAGE ================================================================== */
+
+// .artwork {
+//   left: 100%;
+//   background: white;
+//   color: #626a72;
+
+//   .inner {
+//   	margin: 30px 0 0 220px;
+//   }
+
+// } // end artwork
 
 
-/* === ABOUT PAGE ================================================================== */
+// /* === ABOUT PAGE ================================================================== */
 
-.about {
-  left: 200%;
-  background: #c5e5d5;
-  color: #62726a; }
+// .about {
+//   left: 200%;
+//   background: #c5e5d5;
+//   color: #62726a; }
 
-  .about .inner {
-    width: 620px;
-    position: absolute;
-    left: 250px;
-    top: 60px;
-    margin: 0 0 0 0; }
+//   .about .inner {
+//     width: 620px;
+//     position: absolute;
+//     left: 250px;
+//     top: 60px;
+//     margin: 0 0 0 0; }
   
 
-/* === CONNECT PAGE ================================================================== */
+// /* === CONNECT PAGE ================================================================== */
 
-.connect {
-  left: 300%;
-  background: #c5e5d5;
-  color: #62726a; }
+// .connect {
+//   left: 300%;
+//   background: #c5e5d5;
+//   color: #62726a; }
 
-  .connect .inner {
-    width: 620px;
-    position: absolute;
-    left: 250px;
-    top: 60px;
-    margin: 0 0 0 0; }
+//   .connect .inner {
+//     width: 620px;
+//     position: absolute;
+//     left: 250px;
+//     top: 60px;
+//     margin: 0 0 0 0; }
+
+
+
+/* === V3 Grid =========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 

@@ -1,0 +1,52 @@
+
+.preloader {
+	//display: none;
+	position: fixed;
+	background: #fff;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1200;
+
+
+	// centering page content
+	.centering-block {
+		text-align: center;
+		height: 100%;
+		overflow: auto;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			//margin-right: -0.25em; // adjust for spacing
+		}
+	}
+
+	.centered-content {
+		//position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		//padding: 20px 0 40px 0;
+		width: 95%;
+	}
+
+	.svg {
+		margin-top: -50px; // adjust for better centering feel.
+		width: 100px;
+		//height: auto;
+	}
+
+	.pre-logo {
+		fill: $blue;
+		@include opacity(0.85);
+	}
+
+
+
+
+
+} // end preloader

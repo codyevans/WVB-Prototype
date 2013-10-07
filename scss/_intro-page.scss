@@ -1,0 +1,196 @@
+
+#intro-page {
+
+	// page background
+	.page-background {
+		background: $blue; // fallback color
+		@include background( // textured blue background
+			url(img/bkgd/bkgd-noise.png),
+			radial-gradient(rgba(57, 81, 105, 0.7), rgba(0,0,0,0) 40%),
+			radial-gradient(rgba(0,0,0,0), $dark-blue),
+			url(img/intro/tile8.png) repeat-x center top, // adjust for browser sizes
+			#304355);
+	} // end page-background
+
+
+	// centering page content
+	.centering-block {
+		text-align: center;
+		height: 100%;
+		overflow: auto;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			//margin-right: -0.25em; // adjust for spacing
+		}
+	}
+
+	.centered-content {
+		//position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		//padding: 20px 0 40px 0;
+		width: 95%;
+
+		// content  289 x 354
+		.intro-logo {
+			position: relative;
+			background: url(img/intro/blank-paper.png) no-repeat center 0;
+			width: 289px;
+			height: 354px;
+			margin: 0 auto;
+			//z-index: 1000;
+
+			// 125 x 180
+			.wren-logo {
+				display: none;
+				background: url(img/intro/logo.png) no-repeat center center;
+				width: 125px;
+				height: 180px; 
+				position: absolute;
+				top: 66px;
+				left: 82px;
+				//z-index: 0;
+				//@include transition(top 0.3s ease);
+
+			}
+
+			// .wren-logo.animateIn {
+			// 	top: -190px;
+			// }
+
+			// 177 x 176
+			.about-face {
+				//display: none;
+				background: url(img/intro/face2.png) no-repeat center center;
+				width: 177px;
+				height: 176px; 
+				position: absolute;
+				top: 75px;
+				left: 57px;
+				//z-index: 0;
+				//@include transition(top 0.3s ease);
+			}
+
+		}
+
+		h1 {
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: 3px;
+			margin: 22px 0 4px 0;
+			color: #fff;
+			text-shadow: 0px 0px 17px rgba(0,0,0,0.3);
+			@include opacity(0.8);
+		}
+
+		.sub-heading {
+
+			// subtitle text
+			p span {
+				text-transform: uppercase;
+				font-size: 20px;
+				font-weight: 300;
+				letter-spacing: 2.5px;
+				color: #fff;
+				@include opacity(0.6);
+			}
+
+			// right and left border lines
+			.subtitle span {
+				display: inline-block;
+				position: relative;
+			}
+
+			.subtitle span:before,
+			.subtitle span:after {
+				content: '';
+				position: absolute;
+				height: 5px;
+				border-top: 1px solid #fff;
+				top: 13px;
+				width: 150px;
+			}
+
+			.subtitle span:before {
+				right: 100%;
+				margin-right: 15px;
+			}
+
+			.subtitle span:after {
+				left: 100%;
+				margin-left: 10px;
+			}
+
+		} // end subtitle / subhead
+
+		nav.intro-nav {
+			
+			ul {
+				margin: 100px 0 0 0;
+
+				li {
+					display: inline-block;
+					margin-right: 120px;
+					@include transition(transform 0.2s);
+
+					&:hover {
+						@include transform(translateY(5px));
+					}
+				
+					&:last-child {
+						margin-right: 0px;
+					}
+
+					a {
+						color: #fff;
+						font-size: 16px;
+						font-weight: 300;
+						letter-spacing: 2px;
+						text-decoration: none;
+						text-transform: uppercase;
+						padding: 11px 42px;
+						border: 1px solid #fff;
+						box-shadow: 0 0 0 rgba(0,0,0,0.2);
+						@include opacity(0.5);
+						@include background(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 50%, #fff 50%, #fff));
+						background-size: 100% 200%;
+						@include transition(all 0.18s ease);
+
+						&:hover {
+							background-position: 100% 100%;
+							color: $blue;
+							box-shadow: 0 0 17px rgba(0,0,0,0.4);
+							@include opacity(0.85);
+						}
+
+					} // end a tag
+
+				}
+			}	
+		} // end nav
+
+		.copyright {
+			display: none;
+			color: #fff;
+			font-size: 10px;
+			@include opacity(0.4);
+		}
+
+	}
+	// end centering page content
+
+	
+
+} // end intro page
+
+
+
+
+
+
+
+

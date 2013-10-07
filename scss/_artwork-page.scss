@@ -1,0 +1,43 @@
+
+#artwork-page {
+
+	#top, #left, #right, #bottom {
+		display: none;
+	}
+
+	// page background
+	.page-background {
+		@include background( // textured background
+			url(img/bkgd/bkgd-noise.png));
+	} // end page-background
+
+
+
+	//isotope artwork container
+	#artwork-container {
+		width: 90%;
+		margin: 0 auto;
+		padding-left: 10px;
+		@include transform(translateY(50px));
+		@include opacity(0);
+		@include transition(all 1s 0.5s);
+	} // end artwork container
+
+	#artwork-container.animate {
+		@include transform(translateY(0px));
+		@include opacity(1);
+	} // end artwork container
+
+
+
+
+
+
+
+	// copyright
+	.copyright {
+		display: none;
+	}
+
+} // end artwork-page
+
