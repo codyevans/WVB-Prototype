@@ -5,9 +5,12 @@
 	height: auto;
 	padding: 10px 10px 5px 10px;
 	margin: 0 21px 21px 0;
-	//border-radius: 3px;
 	overflow: hidden;
 	@include box-shadow(rgba(0,0,0,0.2) 0 0 7px 1px);
+
+	// @media (max-width: 400px) {
+	// 	width: 100%;
+	// }
 
 	a {
 		margin: 0;

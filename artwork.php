@@ -80,112 +80,135 @@
             <div class="main-container">
 
                 <div id="artwork-container">
+                  
 
-                    <div class="module item painting">
-                        <a href="#">
-                            <img src="img/hummingbirds.jpg">
-                            <div class="caption-hover">
-                                <h3>Humming Birds</h3>
-                                <hr>
-                                <p class="category">Painting</p>
-                                <p class="year">2013</p>
-                                <div class="view-work">
-                                    <span aria-hidden="true" data-icon="&#x53;"></span>
-                                    View Work
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                     <div class="module item painting">
-                        <a href="#">
-                            <img src="img/hummingbirds.jpg">
-                            <div class="caption-hover">
-                                <h3>Humming Birds</h3>
-                                <hr>
-                                <p class="category">Painting</p>
-                                <p class="year">2013</p>
-                                <div class="view-work">
-                                    <span aria-hidden="true" data-icon="&#x53;"></span>
-                                    View Work
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                     <div class="module item painting">
-                        <a href="#">
-                            <img src="img/hummingbirds.jpg">
-                            <div class="caption-hover">
-                                <h3>Humming Birds</h3>
-                                <hr>
-                                <p class="category">Painting</p>
-                                <p class="year">2013</p>
-                                <div class="view-work">
-                                    <span aria-hidden="true" data-icon="&#x53;"></span>
-                                    View Work
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                     <div class="module item painting">
-                        <a href="#">
-                            <img src="img/hummingbirds.jpg">
-                            <div class="caption-hover">
-                                <h3>Humming Birds</h3>
-                                <hr>
-                                <p class="category">Painting</p>
-                                <p class="year">2013</p>
-                                <div class="view-work">
-                                    <span aria-hidden="true" data-icon="&#x53;"></span>
-                                    View Work
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                     <div class="module item painting">
-                        <a href="#">
-                            <img src="img/hummingbirds.jpg">
-                            <div class="caption-hover">
-                                <h3>Humming Birds</h3>
-                                <hr>
-                                <p class="category">Painting</p>
-                                <p class="year">2013</p>
-                                <div class="view-work">
-                                    <span aria-hidden="true" data-icon="&#x53;"></span>
-                                    View Work
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                     <div class="module item painting">
-                        <a href="#">
-                            <img src="img/hummingbirds.jpg">
-                            <div class="caption-hover">
-                                <h3>Humming Birds</h3>
-                                <hr>
-                                <p class="category">Painting</p>
-                                <p class="year">2013</p>
-                                <div class="view-work">
-                                    <span aria-hidden="true" data-icon="&#x53;"></span>
-                                    View Work
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                    <!-- <div class="temp-image item"></div>
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
 
-                    <div class="temp-image2 item"></div>
-
-                    <div class="temp-image item"></div>
-
-                    <div class="temp-image2 item"></div>
-
-                    <div class="temp-image item"></div> -->
+                        <div class="module item painting">
+                            <a href="#">
+                                <img src="img/hummingbirds.jpg">
+                                <div class="caption-hover">
+                                    <h3>Humming Birds</h3>
+                                    <hr>
+                                    <p class="category">Painting</p>
+                                    <p class="year">2013</p>
+                                    <div class="view-work">
+                                        <span aria-hidden="true" data-icon="&#x53;"></span>
+                                        View Work
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
 
 
                 </div> <!-- /artwork-container --> 
@@ -196,6 +219,7 @@
                         © 2013 Wren Van Bockel - All Rights Reserved
                     </p>
                 </div>
+
 
             </div> <!-- /main-container -->
         </div> <!-- /page-background -->

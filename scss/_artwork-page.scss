@@ -1,11 +1,30 @@
 
 #artwork-page {
 
+	#top, #left, #right, #bottom {
+		display: none;
+	}
+
 	// page background
 	.page-background {
 		@include background( // textured background
 			url(img/bkgd/bkgd-noise.png));
 	} // end page-background
+
+
+
+	//isotope artwork container
+	#artwork-container {
+		width: 90%;
+		margin: 0 auto;
+		
+
+
+	} // end artwork container
+
+
+
+
 
 
 
@@ -16,20 +35,3 @@
 
 } // end artwork-page
 
-
-
-
-
-
-
-.temp-image {
-	width: 200px;
-	height: 200px;
-	background: red;
-}
-
-.temp-image2 {
-	width: 200px;
-	height: 250px;
-	background: pink;
-}
