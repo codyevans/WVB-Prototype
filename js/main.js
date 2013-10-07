@@ -5,7 +5,7 @@ $(window).load(function() {
 	
 	function isotope() {
 
-		var $container = $('#container');
+		var $container = $('#artwork-container');
 
 		$container.isotope({
 		  // options
@@ -29,10 +29,38 @@ $(window).load(function() {
 // end isotope
 
 
+
+// animations after load
 $(window).load(function() { // load the DOM then animate pages in
 
-	// preload this thing
 
+
+	// run isotope
+	function isotope() {
+
+		var $container = $('#artwork-container');
+
+		$container.isotope({
+		  // options
+		  itemSelector : '.item',
+		  layoutMode : 'masonry'
+		});
+
+		// filter items when filter link is clicked
+		// $('#filter-nav a').click(function(){
+		//   var selector = $(this).attr('data-filter');
+		//   $container.isotope({ filter: selector });
+		//   return false;
+		// });
+
+	};
+
+	isotope();
+
+
+
+
+	// preload this thing
 	$(".preloader").delay(350).fadeOut("slow");
 
 
@@ -40,6 +68,19 @@ $(window).load(function() { // load the DOM then animate pages in
 	$('#left, #right, #top, #bottom').addClass('animate');
 
 
+	// add remove scroll on header
+	$('.page-background').scroll(function() {
+
+		if($('.page-background').scrollTop() <= 20) {
+			$('#header').removeClass('active');
+		}else{
+			$('#header').addClass('active');
+		}
+
+	});
+
+
+	
 
 	// fade hovers
 	// $('#artwork-hover').hover(function() {
@@ -50,6 +91,18 @@ $(window).load(function() { // load the DOM then animate pages in
 
 
 
+
 }); // end DOM load stuff
+
+
+
+
+
+
+
+
+
+
+
 
 

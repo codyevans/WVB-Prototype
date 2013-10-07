@@ -1,0 +1,35 @@
+
+#artwork-page {
+
+	// page background
+	.page-background {
+		@include background( // textured background
+			url(img/bkgd/bkgd-noise.png));
+	} // end page-background
+
+
+
+	// copyright
+	.copyright {
+		display: none;
+	}
+
+} // end artwork-page
+
+
+
+
+
+
+
+.temp-image {
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+
+.temp-image2 {
+	width: 200px;
+	height: 250px;
+	background: pink;
+}

@@ -1,12 +1,6 @@
 
 #intro-page {
 
-	::selection {
-		color: #fff;
-		background: $pink;
-		text-shadow: none;
-	} 
-
 	// page background
 	.page-background {
 		background: $blue; // fallback color

@@ -44,7 +44,7 @@
                     <nav class="intro-nav">
                         <ul id="intro-nav-animate">
                             <li>
-                                <a id="artwork-hover" href="#">artwork</a>
+                                <a id="artwork-hover" href="artwork.php">artwork</a>
                             </li>
                             <li>
                                 <a href="#">about</a>
