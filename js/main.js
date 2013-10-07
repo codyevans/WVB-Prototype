@@ -35,6 +35,10 @@ $(window).load(function() { // load the DOM then animate pages in
 	$('#left, #right, #top, #bottom').addClass('animate');
 
 
+	// animate artwork container
+	$('#artwork-container').addClass('animate');
+
+
 	// add remove scroll on header
 	$('.page-background').scroll(function() {
 

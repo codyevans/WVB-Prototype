@@ -77,6 +77,25 @@
                 </nav>
             </header>
 
+            <div id="body-menu">
+                <a href="/" class="title">
+                    Wren Van Bockel
+                </a>
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="#">artwork</a>
+                        </li>
+                        <li>
+                            <a href="#">about</a>
+                        </li>
+                        <li>
+                            <a href="#">connect</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
             <div class="main-container">
 
                 <div id="artwork-container">
@@ -100,7 +119,7 @@
 
                         <div class="module item painting">
                             <a href="#">
-                                <img src="img/hummingbirds.jpg">
+                                <img src="img/peacocky.jpg">
                                 <div class="caption-hover">
                                     <h3>Humming Birds</h3>
                                     <hr>
