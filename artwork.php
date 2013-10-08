@@ -46,6 +46,7 @@
                         </g>
                     </g>
                     </svg>
+                    <p>loading...</p>
                 </div>
             </div>
         </div>
@@ -59,7 +60,7 @@
                 <nav class="main-nav">
                     <ul>
                         <li>
-                            <a href="#">artwork</a>
+                            <a href="artwork.php">artwork</a>
                         </li>
                         <li>
                             <a href="#">about</a>
@@ -113,7 +114,7 @@
                 <nav class="nav">
                     <ul>
                         <li>
-                            <a href="#">artwork</a>
+                            <a href="artwork.php">artwork</a>
                         </li>
                         <li>
                             <a href="#">about</a>

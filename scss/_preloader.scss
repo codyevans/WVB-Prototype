@@ -32,11 +32,20 @@
 		vertical-align: middle;
 		//padding: 20px 0 40px 0;
 		width: 95%;
+
+		p {
+			color: $blue;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			margin-top: 15px;
+			@include opacity(0.85);
+		}
 	}
 
 	.svg {
 		margin-top: -50px; // adjust for better centering feel.
 		width: 100px;
+		height: 148px;
 		//height: auto;
 	}
 
