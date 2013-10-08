@@ -264,7 +264,7 @@
 
                 <div class="copyright">
                     <p>
-                        © 2013 Wren Van Bockel - All Rights Reserved
+                        © <?php echo date('Y'); ?> Wren Van Bockel - All Rights Reserved
                     </p>
                 </div>
 

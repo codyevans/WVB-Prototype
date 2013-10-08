@@ -17,11 +17,21 @@ header {
 		letter-spacing: 1px;
 		margin-left: 30px;
 		@include opacity(0.8);
+
+		@media (max-width: 500px) {
+			display: none;
+		}
 	}
 
-	nav {
+	nav.main-nav {
 		float: right;
 		margin-right: 30px;
+
+		@media (max-width: 500px) {
+			float: none;
+			text-align: center;
+			margin: 0px;
+		}
 
 		ul {
 
@@ -78,10 +88,15 @@ header {
 }
 
 
+
 // body nav
 #body-menu {
 	margin-top: 50px;
 	@include opacity(0.6);
+
+	@media (max-width: 500px) {
+		display: none;
+	}
 
 	.title {
 		float: left;
