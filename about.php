@@ -108,16 +108,16 @@
                         </div>
 
                         <div class="about-content">
-                            <p>
+                            <p class="intro-content">
                                Whimsical, bright, bold, and playful is the best way to describe Wren Van Bockel's artwork.
                                Animals are often at the forefront of her work and are usually set in a colorful scenery.
                                Her pieces read like cartoons or childhood story books. Often, young children are her biggest fans. 
                                Creating art drives her quest for meaning and gives her the greatest joy.
                             </p>
                             <p>
-                                Andy Warhol once said, "Don't think about making art, just get it done. 
+                                Andy Warhol once said, <blockquote>Don't think about making art, just get it done. 
                                 Let everyone else decide if it's good or bad, whether they love it or hate it. 
-                                While they are deciding, make even more art."
+                                While they are deciding, make even more art.</blockquote> 
                             </p>
                             <p>
                                Wren was born in 1977 among the apple orchards of Wenatchee in Central Washington. 

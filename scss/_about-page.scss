@@ -31,7 +31,7 @@
 	.centered-content {
 		display: inline-block;
 		vertical-align: middle;
-		padding: 30px 0 50px 0;
+		padding: 100px 0 50px 0;
 		width: 95%;
 
 		#intro-fade {
@@ -123,6 +123,57 @@
 
 		} // end subtitle / subhead
 
+
+		// content
+		.about-content {
+			//min-width: 300px;
+			max-width: 840px;
+			width: 50%;
+			margin: 0 auto;
+			margin-top: 50px;
+			color: #fff;
+			text-align: left;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 30px;
+			@include opacity(0.8);
+
+			p {
+				margin: 0 0 20px 0;
+			}
+
+			p.intro-content {
+				font-size: 18px;
+				line-height: 34px;
+
+			}
+
+			// quote
+			blockquote {
+			  background: transparent;
+			  border-left: 1px solid rgba(255,255,255,1);
+			  margin: 1.5em 2px;
+			  padding: 0.5em 20px;
+			  quotes: "\201C""\201D""\2018""\2019";
+
+			} // end block 
+
+			blockquote:before {
+			  color: #fff;
+			  content: open-quote;
+			  font-size: 4em;
+			  line-height: 0.1em;
+			  margin-right: 0.25em;
+			  vertical-align: -0.4em;
+			  @include opacity(0.8);
+			}
+
+			blockquote p {
+			  display: inline;
+
+			}
+
+		} // end content
 		
 
 		.copyright {
