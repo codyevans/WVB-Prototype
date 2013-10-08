@@ -58,7 +58,7 @@
 
         <div class="page-background">
 
-            <header id="header">
+            <header class="gpu" id="header">
                 <a href="/" class="title">
                     Wren Van Bockel
                 </a>
@@ -98,7 +98,7 @@
 
             <div class="main-container">
 
-                <div id="artwork-container">
+                <div class="gpu" id="artwork-container">
                   
 
                         <div class="module item painting">

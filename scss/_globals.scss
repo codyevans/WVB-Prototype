@@ -65,11 +65,15 @@ ul {
  	bottom: 0;
  	width: 0px;
  	z-index: 1000;
- 	@include transition(width 0.3s 0.5s);
+ 	@include transition(width 0.5s 0.5s);
  }
 
  #left.animate, #right.animate {
  	width: 18px;
+
+ 	@media (max-width: 768px) {
+ 		width: 0px;
+ 	}
  }
 
  #left {
@@ -87,11 +91,15 @@ ul {
  	right: 0;
  	height: 0px;
  	z-index: 1000;
- 	@include transition(height 0.3s 0.5s);	
+ 	@include transition(height 0.5s 0.5s);	
 }
 
 #top.animate, #bottom.animate {
  	height: 18px;
+
+ 	@media (max-width: 768px) {
+ 		width: 0px;
+ 	}
  }
 
 #top {
