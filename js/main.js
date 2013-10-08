@@ -75,11 +75,11 @@ $(window).load(function() { // load the DOM then animate pages in
 		});
 
 		// filter items when filter link is clicked
-		// $('#filter-nav a').click(function(){
-		//   var selector = $(this).attr('data-filter');
-		//   $container.isotope({ filter: selector });
-		//   return false;
-		// });
+		$('#filter-nav a').click(function(){
+		  var selector = $(this).attr('data-filter');
+		  $container.isotope({ filter: selector });
+		  return false;
+		});
 
 	};
 
@@ -167,6 +167,31 @@ $(window).load(function() { // load the DOM then animate pages in
 		$('#filter-screen').fadeOut();
 	});
 
+	// selected filter states
+	$('#all-work').click(function() {
+		$('#paintings, #drawings, #wood-cuts, #porcelain').removeClass('selected');
+		$(this).addClass('selected');
+	});
+
+	$('#paintings').click(function() {
+		$('#all-work, #drawings, #wood-cuts, #porcelain').removeClass('selected');
+		$(this).addClass('selected');
+	});
+
+	$('#drawings').click(function() {
+		$('#paintings, #all-work, #wood-cuts, #porcelain').removeClass('selected');
+		$(this).addClass('selected');
+	});
+
+	$('#wood-cuts').click(function() {
+		$('#paintings, #drawings, #all-work, #porcelain').removeClass('selected');
+		$(this).addClass('selected');
+	});
+
+	$('#porcelain').click(function() {
+		$('#paintings, #drawings, #wood-cuts, #all-work').removeClass('selected');
+		$(this).addClass('selected');
+	});
 
 
 

@@ -240,6 +240,7 @@
 						&:hover {
 							background: $pink;
 							color: #fff;
+							@include opacity(0.6);
 						}
 					}
 

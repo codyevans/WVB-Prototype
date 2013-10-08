@@ -50,12 +50,6 @@
             </div>
         </div>
 
-        <div id="left"></div>
-        <div id="right"></div>
-        <div id="top"></div>
-        <div id="bottom"></div>
-
-
         <div class="page-background">
 
             <header class="gpu" id="header">
@@ -82,21 +76,21 @@
                     <div class="centered-content">
                         <p>Filter Artwork by Category</p>
                          <nav class="filter-nav">
-                            <ul id="intro-nav-animate">
+                            <ul id="filter-nav">
                                  <li>
-                                    <a class="gpu selected" id="about-hover" href="#">all work</a>
+                                    <a class="gpu selected" id="all-work" href="#" data-filter="*">all work</a>
                                 </li>
                                 <li>
-                                    <a class="gpu" id="artwork-hover" href="#">paintings</a>
+                                    <a class="gpu" id="paintings" href="#" data-filter=".painting">paintings</a>
                                 </li>
                                 <li>
-                                    <a class="gpu" id="about-hover" href="#">drawings</a>
+                                    <a class="gpu" id="drawings" href="#" data-filter=".drawing">drawings</a>
                                 </li>
                                 <li>
-                                    <a class="gpu" id="connect-hover" href="#">wood cuts</a>
+                                    <a class="gpu" id="wood-cuts" href="#" data-filter=".wood-cut">wood cuts</a>
                                 </li>
                                 <li>
-                                    <a class="gpu" id="connect-hover" href="#">porcelain</a>
+                                    <a class="gpu" id="porcelain" href="#" data-filter=".porcelain">porcelain</a>
                                 </li>
                             </ul>
                         </nav>
@@ -168,7 +162,7 @@
                             </a>
                         </div>
 
-                        <div class="module item painting">
+                        <div class="module item drawing">
                             <a href="#">
                                 <img src="img/hummingbirds.jpg">
                                 <div class="caption-hover">
@@ -200,7 +194,7 @@
                             </a>
                         </div>
 
-                        <div class="module item painting">
+                        <div class="module item wood-cut">
                             <a href="#">
                                 <img src="img/hummingbirds.jpg">
                                 <div class="caption-hover">
@@ -232,7 +226,7 @@
                             </a>
                         </div>
 
-                        <div class="module item painting">
+                        <div class="module item porcelain">
                             <a href="#">
                                 <img src="img/hummingbirds.jpg">
                                 <div class="caption-hover">
