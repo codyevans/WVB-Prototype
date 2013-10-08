@@ -59,9 +59,11 @@ return {
 };
 
 
- $(function(){
+// animations after load
+$(window).load(function() { // load the DOM then animate pages in
 
-  	// // run isotope
+
+	// run isotope
 	function isotope() {
 
 		var $container = $('#artwork-container');
@@ -82,12 +84,7 @@ return {
 	};
 
 	isotope();
-    
- });  // end isotope
 
-
-// animations after load
-$(window).load(function() { // load the DOM then animate pages in
 
 	// preload this thing
 	$(".preloader").delay(350).fadeOut("slow");
