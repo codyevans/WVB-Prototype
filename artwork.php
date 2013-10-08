@@ -76,6 +76,12 @@
                     </ul>
                 </nav>
             </header>
+             <div id="filtering-bar" class="filter-bar">
+                <div class="filter-btn">
+                    <p>Filter Artwork</p>
+                    <span class="arrow"></span>
+                </div>
+            </div>
 
             <div id="body-menu">
                 <a href="/" class="title">
