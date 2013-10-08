@@ -3,6 +3,7 @@
 
 	#top, #left, #right, #bottom {
 		display: none;
+		//z-index: 1300;
 	}
 
 	// page background
@@ -10,7 +11,6 @@
 		@include background( // textured background
 			url(img/bkgd/bkgd-noise.png));
 	} // end page-background
-
 
 
 	//isotope artwork container
@@ -31,14 +31,13 @@
 
 
 
-
-
 	// copyright
 	.copyright {
 		display: none;
 	}
 
 } // end artwork-page
+
 
 
 // filtering nav bar / btn
@@ -109,6 +108,153 @@
 
 }
 
+
+// filtering screen
+.filter-screen {
+	//display: none;
+	position: fixed;
+	//background: $blue;
+	background: $blue; // fallback color
+		@include background( // textured blue background
+			//url(img/bkgd/bkgd-noise.png),
+			//radial-gradient(rgba(57, 81, 105, 0.7), rgba(0,0,0,0) 40%),
+			radial-gradient(rgba(0,0,0,0), $dark-blue),
+			$blue);
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1200;
+	@include opacity(0.92);
+	//@include transform(translateY(-1200px));
+
+
+	// centering page content
+	.centering-block {
+		text-align: center;
+		height: 100%;
+		overflow: auto;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			//margin-right: -0.25em; // adjust for spacing
+		}
+	}
+
+	.centered-content {
+		//position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 30px 0 50px 0;
+		width: 95%;
+
+		p {
+			color: #fff;
+			font-weight: 300;
+			@include opacity(0.9);
+		}
+
+		p.exit {
+			cursor: pointer;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #fff;
+			font-weight: 300;
+			@include opacity(0.7);
+			@include transition(all 0.2s);
+
+			&:hover {
+				@include opacity(0.9);
+			}
+		}
+
+		nav.filter-nav {
+			
+			ul {
+				margin: 60px 0 0 0;
+
+				@media (max-width: 768px) {
+					margin-top: 55px;
+				}
+
+				@media (max-width: 520px) {
+					margin-top: 58px;
+				}
+
+				li {
+					//display: inline-block;
+					//margin-right: 80px;
+					display: block;
+					margin: 0 0 60px 0;
+					@include transition(transform 0.2s);
+
+					@media (max-width: 768px) {
+						display: block;
+						margin: 0 0 50px 0;
+					}
+
+					&:hover {
+						@include transform(translateY(5px));
+					}
+				
+					&:last-child {
+						margin-right: 0px;
+					}
+
+					a {
+						color: #fff;
+						font-size: 16px;
+						font-weight: 300;
+						letter-spacing: 2px;
+						text-decoration: none;
+						text-transform: uppercase;
+						//padding: 11px 42px;
+						padding: 11px 20%;
+						border: 1px solid #fff;
+						box-shadow: 0 0 0 rgba(0,0,0,0.2);
+						@include opacity(0.6);
+						@include background(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 50%, #fff 50%, #fff));
+						background-size: 100% 200%;
+						@include transition(all 0.2s ease);
+
+						@media (max-width: 768px) {
+							padding: 11px 20%;
+						}
+
+						&:hover {
+							background-position: 100% 100%;
+							color: $blue;
+							box-shadow: 0 0 17px rgba(0,0,0,0.4);
+							@include opacity(0.85);
+						}
+
+					} // end a tag
+
+					a.selected {
+						background: $pink;
+
+						&:hover {
+							background: $pink;
+							color: #fff;
+						}
+					}
+
+				}
+			}	
+		} // end nav
+
+	} // end centered content
+
+	
+
+
+
+
+} // end filtering screen
 
 
 

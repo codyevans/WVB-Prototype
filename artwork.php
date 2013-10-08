@@ -76,8 +76,37 @@
                     </ul>
                 </nav>
             </header>
+
+            <div id="filter-screen" class="filter-screen">
+                <div class="centering-block">
+                    <div class="centered-content">
+                        <p>Filter Artwork by Category</p>
+                         <nav class="filter-nav">
+                            <ul id="intro-nav-animate">
+                                 <li>
+                                    <a class="gpu selected" id="about-hover" href="#">all work</a>
+                                </li>
+                                <li>
+                                    <a class="gpu" id="artwork-hover" href="#">paintings</a>
+                                </li>
+                                <li>
+                                    <a class="gpu" id="about-hover" href="#">drawings</a>
+                                </li>
+                                <li>
+                                    <a class="gpu" id="connect-hover" href="#">wood cuts</a>
+                                </li>
+                                <li>
+                                    <a class="gpu" id="connect-hover" href="#">porcelain</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <p id="close-screen" class="exit">exit screen</p>
+                    </div>
+                </div>
+            </div>
+
              <div id="filtering-bar" class="filter-bar">
-                <div class="filter-btn">
+                <div id="filter-btn" class="filter-btn">
                     <p>Filter Artwork</p>
                     <span class="arrow"></span>
                 </div>

@@ -89,11 +89,15 @@ $(window).load(function() { // load the DOM then animate pages in
 	// preload this thing
 	$(".preloader").delay(350).fadeOut("slow");
 
+	
+	
 	// animate page borders
 	$('#left, #right, #top, #bottom').addClass('animate');
 
 	// animate intro container
 	$('#intro-fade').addClass('animate');
+
+	
 
 	// animate artwork container
 	$('#artwork-container').addClass('animate');
@@ -108,6 +112,8 @@ $(window).load(function() { // load the DOM then animate pages in
 		}
 
 	});
+
+
 
 	// artwork fade hovers
 	$('#artwork-hover').hover(function() {
@@ -147,6 +153,20 @@ $(window).load(function() { // load the DOM then animate pages in
 		$('.connect-circle').removeClass('hoverIn');
 
 	});
+
+
+
+	// filtering screen
+	$('#filter-screen').hide();
+
+	$('#filter-btn').click(function() {
+		$('#filter-screen').fadeIn();
+	});
+
+	$('#close-screen').click(function() {
+		$('#filter-screen').fadeOut();
+	});
+
 
 
 
