@@ -16,7 +16,7 @@
 	//isotope artwork container
 	#artwork-container {
 		width: 90%;
-		margin: 0 auto;
+		margin: 0 auto !important;
 		padding-left: 10px;
 		@include transform(translateY(50px));
 		@include opacity(0);
