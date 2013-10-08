@@ -63,10 +63,10 @@
                             <a href="artwork.php">artwork</a>
                         </li>
                         <li>
-                            <a href="#">about</a>
+                            <a href="about.php">about</a>
                         </li>
                         <li>
-                            <a href="#">connect</a>
+                            <a href="connect.php">connect</a>
                         </li>
                     </ul>
                 </nav>
@@ -117,10 +117,10 @@
                             <a href="artwork.php">artwork</a>
                         </li>
                         <li>
-                            <a href="#">about</a>
+                            <a href="about.php">about</a>
                         </li>
                         <li>
-                            <a href="#">connect</a>
+                            <a href="connect.php">connect</a>
                         </li>
                     </ul>
                 </nav>

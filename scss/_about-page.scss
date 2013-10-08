@@ -1,0 +1,154 @@
+
+#about-page {
+
+	// page background
+	.page-background {
+		background: $blue; // fallback color
+		@include background( // textured blue background
+			url(img/bkgd/bkgd-noise.png),
+			radial-gradient(rgba(57, 81, 105, 0.7), rgba(0,0,0,0) 40%),
+			radial-gradient(rgba(0,0,0,0), $dark-blue),
+			//url(img/intro/tile8.png) repeat-x center top, // adjust for browser sizes
+			#304355);
+	} // end page-background
+
+
+	// centering page content
+	.centering-block {
+		text-align: center;
+		height: 100%;
+		overflow: auto;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			//margin-right: -0.25em; // adjust for spacing
+		}
+	}
+
+	.centered-content {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 30px 0 50px 0;
+		width: 95%;
+
+		#intro-fade {
+			@include opacity(0);
+			@include transform(translateY(15px));
+			@include transition(all 1s 0.5s);
+		}
+
+		#intro-fade.animate {
+			@include transform(translateY(0px));
+			@include opacity(1);
+		}
+
+		h1 {
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: 3px;
+			margin: 22px 0 4px 0;
+			color: #fff;
+			text-shadow: 0px 0px 17px rgba(0,0,0,0.3);
+			@include opacity(0.8);
+
+			@media (max-width: 600px) {
+				font-size: 32px;
+			}
+
+			@media (max-width: 420px) {
+				font-size: 23px;
+			}
+		}
+
+		.sub-heading {
+
+			// subtitle text
+			p span {
+				text-transform: uppercase;
+				font-size: 20px;
+				font-weight: 300;
+				letter-spacing: 2.5px;
+				color: #fff;
+				@include opacity(0.6);
+
+				@media (max-width: 600px) {
+					font-size: 16px;
+				}
+
+				@media (max-width: 420px) {
+					font-size: 14px;
+				}
+			}
+
+			// right and left border lines
+			.subtitle span {
+				display: inline-block;
+				position: relative;
+			}
+
+			.subtitle span:before,
+			.subtitle span:after {
+				content: '';
+				position: absolute;
+				height: 5px;
+				border-top: 1px solid #fff;
+				top: 13px;
+				width: 150px;
+
+				@media (max-width: 600px) {
+					width: 100px;
+				}
+
+				@media (max-width: 420px) {
+					width: 60px;
+				}
+
+				@media (max-width: 245px) {
+					width: 10px;
+				}
+			}
+
+			.subtitle span:before {
+				right: 100%;
+				margin-right: 15px;
+			}
+
+			.subtitle span:after {
+				left: 100%;
+				margin-left: 10px;
+			}
+
+		} // end subtitle / subhead
+
+		
+
+		.copyright {
+			position: relative;
+			margin-top: 60px;
+			//display: none;
+			color: #fff;
+			font-size: 10px;
+			@include opacity(0.4);
+
+			@media (max-width: 520px) {
+				margin-top: 50px;
+			}
+		}
+
+	}
+	// end centering page content
+
+	
+
+} // end intro page
+
+
+
+
+
+
+
+

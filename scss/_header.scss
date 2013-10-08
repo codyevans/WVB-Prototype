@@ -88,6 +88,18 @@ header {
 }
 
 
+// roll header in on scroll about / contact pages
+#about-page #header {
+	@include transform(translateY(-75px));
+	@include transition(transform 0.4s);
+}
+
+#about-page #header.active {
+	@include transform(translateY(0px));
+	@include transition(transform 0.5s 0.5s);
+}
+
+
 
 // body nav
 #body-menu {
