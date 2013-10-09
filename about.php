@@ -82,7 +82,7 @@
                 <div class="centered-content">
                     <div id="intro-fade" class="gpu">
                         <div class="about-img">
-                            <img src="img/intro/wren-face.png">
+                            <img src="img/intro/wren-faceV2.png" alt="Wren Van Bockel">
                         </div>
                         <h1>Wren Van Bockel</h1>
                         <div class="sub-heading">
