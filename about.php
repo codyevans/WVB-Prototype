@@ -61,33 +61,14 @@
                         <a href="artwork.php">artwork</a>
                     </li>
                     <li>
-                        <a href="#">about</a>
+                        <a href="about.php">about</a>
                     </li>
                     <li>
-                        <a href="#">connect</a>
+                        <a href="connect.php">connect</a>
                     </li>
                 </ul>
             </nav>
         </header>
-
-       <!--  <div id="body-menu">
-            <a href="/" class="title">
-                Wren Van Bockel
-            </a>
-            <nav class="nav">
-                <ul>
-                    <li>
-                        <a href="artwork.php">artwork</a>
-                    </li>
-                    <li>
-                        <a href="#">about</a>
-                    </li>
-                    <li>
-                        <a href="#">connect</a>
-                    </li>
-                </ul>
-            </nav>
-        </div> -->
 
         <div clas="gpu" id="left"></div>
         <div clas="gpu" id="right"></div>
@@ -115,7 +96,7 @@
                                Creating art drives her quest for meaning and gives her the greatest joy.
                             </p>
                             <p>
-                                Andy Warhol once said, <blockquote>Don't think about making art, just get it done. 
+                                <strong>Andy Warhol</strong> once said, <blockquote>Don't think about making art, just get it done. 
                                 Let everyone else decide if it's good or bad, whether they love it or hate it. 
                                 While they are deciding, make even more art.</blockquote> 
                             </p>
@@ -125,6 +106,10 @@
                                During her childhood she cultivated her artistic talents, making dollhouse furniture, drawing fashion models, 
                                and decorating the family tree house.  In 2001, Wren received a BFA from the University of Idaho. 
                                Wren currently resides in Boise Idaho, where she continues to share and show her creations while expanding her portfolio.
+                            </p>
+                            <p>
+                                Wren's primary medium is acrylic on canvas and wood. She's recently moved into porcelain and mixed media to capture 
+                                her characters in a three-dimensional format.
                             </p>
                             <p>
                                 *BFA Painting and Drawing '01, University of Idaho
