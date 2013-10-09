@@ -160,7 +160,7 @@
                                 </li>
                                 <li>
                                     <p>
-                                        <strong>size: </strong>12in. x 24in.
+                                        <strong>size: </strong>12in x 24in
                                     </p>
                                 </li>
                             </ul>
