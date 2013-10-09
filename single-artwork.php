@@ -128,45 +128,59 @@
             </div>
 
             <div class="main-container">
+                <div id="single-fade">
+                    <div class="single-view">
 
-                <div id="single-fade" class="single-view">
+                        <div class="main-image">
+                              <img src="img/hummingbirds.jpg">
+                         </div>
 
-                    <div class="main-image">
-                          <img src="img/hummingbirds.jpg">
-                     </div>
+                         <div class="artwork-info">
+                            <h1 class="title">Humming Birds</h1>
+                            <hr>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <strong>medium: </strong>Acrylic on Canvas
+                                    </p>
+                                </li>
 
-                     <div class="artwork-info">
-                        <h1 class="title">Humming Birds</h1>
-                        <hr>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                                <li>
+                                    <p>
+                                        <strong>year: </strong>2012
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>size: </strong>12in. x 24in.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div> <!-- /single-view -->
+                    <div class="more-works">
                         <ul>
                             <li>
-                                <p>
-                                    <strong>medium: </strong>Acrylic on Canvas
-                                </p>
-                            </li>
-
-                            <li>
-                                <p>
-                                    <strong>year: </strong>2012
-                                </p>
+                                <a class="previous" href="#">previous</a>
                             </li>
                             <li>
-                                <p>
-                                    <strong>size: </strong>12in. x 24in.
-                                </p>
+                                <a class="index" href="artwork.php">index</a>
+                            </li>
+                            <li>
+                                <a class="next" href="#">next</a>
                             </li>
                         </ul>
                     </div>
-
-                </div> <!-- /single-view -->  
+                </div> <!-- /fade -->  
                 
 
                 <div class="copyright">

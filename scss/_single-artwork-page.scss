@@ -105,6 +105,67 @@
 
 	} // end single view
 
+	.more-works {
+		text-align: center;
+		width: 90%;
+		margin: 45px auto 0 auto;
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+				display: inline-block;
+				margin-right: 10%;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				a {
+					display: block;
+					background: url(img/bkgd/controls.png) no-repeat 0 0;
+					width: 38px;
+					height: 38px;
+					text-indent: -99999px;
+					@include opacity(0.3);
+				}
+			}
+		}
+
+		.previous {
+			background-position: 0px -4px;
+			@include transition(all 0.2s);
+
+			&:hover {
+				background-position: 0px -51px;
+				@include opacity(0.6);
+			}	
+		}
+
+		.index {
+			background-position: -51px -4px;
+			@include transition(all 0.2s);
+
+			&:hover {
+				background-position: -51px -51px;
+				@include opacity(0.6);
+			}
+		}
+
+		.next {
+			background-position: -100px -4px;
+			@include transition(all 0.2s);
+
+			&:hover {
+				background-position: -100px -51px;
+				@include opacity(0.6);
+			}	
+		}
+
+	}  // end meta links
+
 
 	#single-fade {
 		@include opacity(0);
