@@ -6,14 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Wren Van Bockel | Artwork</title>
+        <title>Wren Van Bockel | Humming Birds</title>
         <meta name="description" content="The Creative Portfolio of Wren Van Bockel">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body id="artwork-page">
+    <body id="single-artwork-page">
 
         <div class="preloader">
             <div class="centering-block">
@@ -76,10 +76,11 @@
                 <div class="centering-block">
                     <div class="centered-content">
                         <p>Filter Artwork by Category</p>
+                        <p class="page-return">please return to the <a class="return-link" href="artwork.php">artwork</a> page for filtering</p>
                          <nav class="filter-nav">
                             <ul id="filter-nav">
                                  <li>
-                                    <a class="gpu selected" id="all-work" href="#" data-filter="*">all work</a>
+                                    <a class="gpu" id="all-work" href="#" data-filter="*">all work</a>
                                 </li>
                                 <li>
                                     <a class="gpu" id="paintings" href="#" data-filter=".painting">paintings</a>
@@ -128,140 +129,12 @@
 
             <div class="main-container">
 
-                <div class="gpu" id="artwork-container">
-                  
+                <div class="single-view">
 
-                        <div class="module item painting">
-                            <a href="single-artwork.php">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <img src="img/hummingbirds.jpg">
 
-                        <div class="module item painting">
-                            <a href="#">
-                                <img src="img/peacocky.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="module item drawing">
-                            <a href="#">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="module item painting">
-                            <a href="#">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="module item wood-cut">
-                            <a href="#">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="module item painting">
-                            <a href="#">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="module item porcelain">
-                            <a href="#">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="module item painting">
-                            <a href="#">
-                                <img src="img/hummingbirds.jpg">
-                                <div class="caption-hover">
-                                    <h3>Humming Birds</h3>
-                                    <hr>
-                                    <p class="category">Painting</p>
-                                    <p class="year">2013</p>
-                                    <div class="view-work">
-                                        <span aria-hidden="true" data-icon="&#x53;"></span>
-                                        View Work
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-                </div> <!-- /artwork-container --> 
-
+                </div> <!-- /single-view -->  
+                
 
                 <div class="copyright">
                     <p>
