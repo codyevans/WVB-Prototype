@@ -81,6 +81,9 @@
            <div class="centering-block">
                 <div class="centered-content">
                     <div id="intro-fade" class="gpu">
+                        <div class="about-img">
+                            <img src="img/intro/wren-face.png">
+                        </div>
                         <h1>Wren Van Bockel</h1>
                         <div class="sub-heading">
                            <p class="subtitle">

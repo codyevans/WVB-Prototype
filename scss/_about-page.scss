@@ -34,6 +34,17 @@
 		padding: 100px 0 50px 0;
 		width: 95%;
 
+		.about-img {
+			width: 50%;
+			max-width: 431px;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
 		#intro-fade {
 			@include opacity(0);
 			@include transform(translateY(15px));
