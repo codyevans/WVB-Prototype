@@ -98,7 +98,7 @@ $(window).load(function() { // load the DOM then animate pages in
 	$('#intro-fade').addClass('animate');
 
 	// animate header on about / connect pages
-	$('#about-page #header').addClass('active');
+	$('#about-page #header, #connect-page #header').addClass('active');
 
 	
 

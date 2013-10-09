@@ -6,14 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Wren Van Bockel | Connect</title>
+        <title>Wren Van Bockel | Connect with Me</title>
         <meta name="description" content="The Creative Portfolio of Wren Van Bockel">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body id="about-page">
+    <body id="connect-page">
 
         <div class="preloader">
             <div class="centering-block">
@@ -89,31 +89,20 @@
                         </div>
 
                         <div class="about-content">
+                            <p>
+                                *Please note, all original paintings listed on this website are no longer available for purchase, unless otherwise noted.  Thank you.
+                            </p>
                             <p class="intro-content">
-                               Whimsical, bright, bold, and playful is the best way to describe Wren Van Bockel's artwork.
-                               Animals are often at the forefront of her work and are usually set in a colorful scenery.
-                               Her pieces read like cartoons or childhood story books. Often, young children are her biggest fans. 
-                               Creating art drives her quest for meaning and gives her the greatest joy.
+                                For general inquiries, commissions and purchasing artwork, please contact:
                             </p>
                             <p>
-                                <strong>Andy Warhol</strong> once said, <blockquote>Don't think about making art, just get it done. 
-                                Let everyone else decide if it's good or bad, whether they love it or hate it. 
-                                While they are deciding, make even more art.</blockquote> 
+                                <strong>Email: </strong><a class="link" href="mailto:wrenvanbockel@msn.com">wrenvanbockel@msn.com</a> <br>
+                                <strong>Phone: </strong><span class="phone">(208)818-6062</span> <br>
+                                <strong>Facebook: </strong><a class="link" href="http://facebook.com/wren.vanbockel">facebook.com/wren.vanbockel</a>
                             </p>
-                            <p>
-                               Wren was born in 1977 among the apple orchards of Wenatchee in Central Washington. 
-                               She began her schooling on Whidbey Island and culminated her formative years in Coeur d' Alene, Idaho. 
-                               During her childhood she cultivated her artistic talents, making dollhouse furniture, drawing fashion models, 
-                               and decorating the family tree house.  In 2001, Wren received a BFA from the University of Idaho. 
-                               Wren currently resides in Boise Idaho, where she continues to share and show her creations while expanding her portfolio.
-                            </p>
-                            <p>
-                                Wren's primary medium is acrylic on canvas and wood. She's recently moved into porcelain and mixed media to capture 
-                                her characters in a three-dimensional format.
-                            </p>
-                            <p>
-                                *BFA Painting and Drawing '01, University of Idaho
-                            </p>
+                            <div class="email-link-contain">
+                                <a class="email" href="mailto:wrenvanbockel@msn.com">email me</a>
+                            </div>
                         </div>
 
                       

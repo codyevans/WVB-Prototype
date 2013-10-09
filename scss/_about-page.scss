@@ -1,5 +1,5 @@
 
-#about-page {
+#about-page, #connect-page {
 
 	// page background
 	.page-background {
@@ -208,6 +208,59 @@
 			}
 
 		} // end content
+
+		// contact stuff
+		.email-link-contain{
+			text-align: center;
+			margin-top: 60px;
+		}
+
+		a.email {
+			color: #fff;
+			font-size: 16px;
+			font-weight: 300;
+			letter-spacing: 2px;
+			text-decoration: none;
+			text-transform: uppercase;
+			//padding: 11px 42px;
+			padding: 11px 35%;
+			border: 1px solid #fff;
+			box-shadow: 0 0 0 rgba(0,0,0,0.2);
+			@include opacity(0.6);
+			@include background(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 50%, #fff 50%, #fff));
+			background-size: 100% 200%;
+			@include transition(all 0.2s ease);
+
+			@media (max-width: 768px) {
+				padding: 11px 20%;
+			}
+
+			&:hover {
+				background-position: 100% 100%;
+				color: $blue;
+				box-shadow: 0 0 17px rgba(0,0,0,0.4);
+				@include opacity(0.85);
+			}
+		}
+
+		.link {
+			letter-spacing: 1px;
+			color: #fff;
+			font-weight: 300;
+			text-decoration: none;
+			@include transition(all 0.2s);
+
+			&:hover {
+				text-decoration: underline;
+			}	
+		}
+
+		.phone {
+			letter-spacing: 1px;
+			color: #fff;
+			font-weight: 300;
+			text-decoration: none;
+		}
 		
 
 		.copyright {
