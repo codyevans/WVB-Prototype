@@ -2,5 +2,52 @@
 http://www.dennisadelmann.de
 
 
+// basic loop
+
+<!-- start the loop -->
+
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+	<h3><?php the_title(); ?></h3>
+	<?php the_content(); ?>
+	
+
+
+
+<?php endwhile; endif; ?>
+
+<!-- /loop -->
+
+
+
+// custom loop
+
+<?php
+	
+	$args = array(
+		'post_type' => 'artwork',
+
+	); 
+
+	$the_query = new WP_Query($args);
+
+ ?>
+
+<!-- start custom loop -->
+
+
+<?php if (have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
+	<div class="module">
+	<?php get_template_part('content', 'artwork'); ?>
+	</div>
+
+	
+
+<?php endwhile; endif; ?>
+
+
+
+<!-- /loop -->
+
 
 

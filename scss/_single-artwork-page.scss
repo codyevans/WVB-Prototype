@@ -119,17 +119,20 @@
 				display: inline-block;
 				margin-right: 10%;
 
+				background: url(img/bkgd/controls.png) no-repeat 0 0;
+				width: 38px;
+				height: 38px;
+				text-indent: -99999px;
+				@include opacity(0.3);
+
 				&:last-child {
 					margin-right: 0;
 				}
 
 				a {
 					display: block;
-					background: url(img/bkgd/controls.png) no-repeat 0 0;
 					width: 38px;
 					height: 38px;
-					text-indent: -99999px;
-					@include opacity(0.3);
 				}
 			}
 		}

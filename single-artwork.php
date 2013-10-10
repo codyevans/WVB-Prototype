@@ -178,6 +178,9 @@
                             <li>
                                 <a class="next" href="#">next</a>
                             </li>
+                            <li class="next">
+                                <a href="#">next</a> 
+                            </li>
                         </ul>
                     </div>
                 </div> <!-- /fade -->  
